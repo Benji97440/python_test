@@ -16,8 +16,8 @@ def getlist(x, n):
 
 
 fichier = open('syracuse.txt', 'r')
-contenu  = fichier.readline()
-a = contenu[0]
-b = contenu[1]
+a = int(fichier.readline())
+b = int(fichier.readline())
+print(a,b)
 fichier.close()
 print(getlist(a,b))
