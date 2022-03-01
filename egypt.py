@@ -8,5 +8,4 @@ def Egypt(a,b):
 		A = A//2
 		B *= 2
 	return(temp)
-
 print(Egypt(34,32))
