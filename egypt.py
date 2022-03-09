@@ -9,3 +9,4 @@ def Egypt(a,b):
 		B += 2
 	return(temp)
 print(Egypt(34,32))
+print("fin")
