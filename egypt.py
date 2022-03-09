@@ -6,6 +6,6 @@ def Egypt(a,b):
 		if A%2 == 1:
 			temp += B
 		A = A//2
-		B *= 2
+		B += 2
 	return(temp)
 print(Egypt(34,32))
